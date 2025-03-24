@@ -102,5 +102,6 @@ def main():
         result = testing_function(grammar, string)
         print(f"{string}: {result}")  # Print result (empty string is represented as ε)
 
+# Run the program if executed directly from the command line
 if __name__ == "__main__":
     main()
